@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'poppinsblack';
+    src: url(../../static/media/poppins-black.c7640bbc.woff2) format('woff2'),
+         url(../../static/media/poppins-black.c8227767.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsblack_italic';
+    src: url(../../static/media/poppins-blackitalic.22c0c3d9.woff2) format('woff2'),
+         url(../../static/media/poppins-blackitalic.60ab4bc9.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url(../../static/media/poppins-bold.fda8f2f2.woff2) format('woff2'),
+         url(../../static/media/poppins-bold.a75cb3c9.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url(../../static/media/poppins-bolditalic.b4c44791.woff2) format('woff2'),
+         url(../../static/media/poppins-bolditalic.af0dd24a.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url(../../static/media/poppins-extrabold.01ed0769.woff2) format('woff2'),
+         url(../../static/media/poppins-extrabold.e8fab554.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsextrabold_italic';
+    src: url(../../static/media/poppins-extrabolditalic.07bb33b0.woff2) format('woff2'),
+         url(../../static/media/poppins-extrabolditalic.1dbc7e7d.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url(../../static/media/poppins-extralight.a44c8062.woff2) format('woff2'),
+         url(../../static/media/poppins-extralight.71d137c4.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsextralight_italic';
+    src: url(../../static/media/poppins-extralightitalic.011f3569.woff2) format('woff2'),
+         url(../../static/media/poppins-extralightitalic.9ba77959.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url(../../static/media/poppins-italic.a6a58726.woff2) format('woff2'),
+         url(../../static/media/poppins-italic.22f54c77.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url(../../static/media/poppins-light.aa4a642c.woff2) format('woff2'),
+         url(../../static/media/poppins-light.e98d2b54.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinslight_italic';
+    src: url(../../static/media/poppins-lightitalic.3b9730b5.woff2) format('woff2'),
+         url(../../static/media/poppins-lightitalic.be46b22f.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url(../../static/media/poppins-medium.d8dd0740.woff2) format('woff2'),
+         url(../../static/media/poppins-medium.291d17cb.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.typography {
+    font-family: 'Poppins', sans-serif;
+}
+.nav{border-radius:20px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.2)}.nav.scroll{border-radius:0px;position:absolute;top:0;left:0;width:100%;background:#F6F6F8}.nav.scroll .wrapper{margin:0 auto;max-width:1200px}.nav.scroll .wrapper .info-hotel{padding:5px}.nav.scroll .wrapper .info-hotel.center{-webkit-align-items:flex-end;align-items:flex-end}.nav.scroll .wrapper .info-hotel p{display:none}.nav.scroll .wrapper button{display:none}.nav .wrapper{border-bottom:1px solid rgba(0,0,0,0.1);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:space-between;justify-content:space-between}.nav .wrapper .info-hotel{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;padding:15px}.nav .wrapper .info-hotel.block-price-color{background:#F6F6F8;min-width:25%}.nav .wrapper .info-hotel .flex-center{display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center}.nav .wrapper .info-hotel.left{-webkit-align-items:left;align-items:left}.nav .wrapper .info-hotel.center{-webkit-align-items:center;align-items:center}
+
+
+/*# sourceMappingURL=main.6176cc83.chunk.css.map*/
