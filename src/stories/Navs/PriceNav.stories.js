@@ -37,6 +37,32 @@ PriceNavHotels.argTypes = {
       defaultValue: { summary: 'Button' },
     },
   },
+  board: {
+    name: 'tipo de alojamiento',
+    description: 'alojamiento',
+    type: { name: 'string', required: true },
+    control: {
+      type: 'text',
+    },
+    defaultValue: 'All Inclusive',
+    table: {
+      type: { summary: 'string' },
+      defaultValue: { summary: 'Button' },
+    },
+  },
+  boardColor: {
+    name: 'color Etiqueta',
+    description: 'color de Etiqueta',
+    type: { name: 'string', required: true },
+    control: {
+      type: 'text',
+    },
+    defaultValue: '#4A90E2',
+    table: {
+      type: { summary: 'string' },
+      defaultValue: { summary: 'Button' },
+    },
+  },
   direction: {
     name: 'Direccion',
     description: 'Direccion',
