@@ -11,17 +11,17 @@ const Template = (args) => <Gallery {...args} />;
 
 export const GalleryComponent = Template.bind({});
 GalleryComponent.argTypes = {
-  /* promoType: {
-    name: 'tipo de promo',
-    description: 'Descuentos',
+  textButton: {
+    name: 'texto en el botton',
+    description: 'Agrega o cambia el texto del botton de accion',
     type: { name: 'string', required: true },
     control: {
       type: 'text',
     },
-    defaultValue: 'Descuento exclusivo para parejas',
+    defaultValue: 'VER FOTOS',
     table: {
       type: { summary: 'string' },
       defaultValue: { summary: 'Button' },
     },
-  }, */
+  },
 };

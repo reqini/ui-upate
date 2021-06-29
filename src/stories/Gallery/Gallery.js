@@ -6,10 +6,10 @@ import Button from '../Button';
 import './Gallery.scss';
 import { images } from './image.json';
 
-export const Gallery = ({action, imagePrimary}) => (
+export const Gallery = ({action, imagePrimary, textButton}) => (
   <div className="content-galery">
     <div className="primary-image" style={{ backgroundImage: `url(${images.item || imagePrimary})`}}>
-      <Button width={160} onClick={action} background="white" color="black">VER FOTOS</Button>
+      <Button width={160} onClick={action} background="white" color="black">{textButton}</Button>
     </div>
     <ul>
       {images.slice(1, 5).map((data, i) => {
@@ -23,9 +23,11 @@ export const Gallery = ({action, imagePrimary}) => (
 
 Gallery.propTypes = {
   action: PropTypes,
+  textButton: PropTypes
 };
 
 Gallery.defaultProps = {
   action: null,
-  imagePrimary: 'https://storage.googleapis.com/static-content-hc/sites/default/files/cataloina_porto_doble_balcon2_2.jpg'
+  textButton: 'VER FOTOS',
+  imagePrimary: 'https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg'
 };
