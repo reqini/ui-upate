@@ -3,7 +3,7 @@ import React from 'react';
 import { PriceNav } from './PriceNav';
 
 export default {
-  title: 'Navs/PriceNav',
+  title: 'Hotels/PriceNav',
   component: PriceNav,
 };
 

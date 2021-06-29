@@ -17,7 +17,7 @@ const useStyles = createUseStyles(({}) => ({
     padding: '0 1rem 0 1rem',
     minWidth: 48,
     width: width || '100%',
-    height: size,
+    height: size || 35,
 
     '&:active': {
       border: 'none'
