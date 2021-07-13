@@ -31,7 +31,7 @@ export const RoomCard = ({ type, cancelfree, active, action, night, people, pric
       <Typography variant="p" fontSize={12} margin={'5px 0'}>{night} noches, {people} personas</Typography>
       <Typography variant="p" fontSize={25} fontWeight={700}>{`$${priceFull}`}</Typography>
       <Typography variant="p" fontSize={11} margin={'5px 0'}>"Impuestos y tasas incluidos"</Typography>
-      <Button onClick={action} size={48} background={!active && 'silver'}>{active ? 'RESERVAR AHORA' : 'SELECCIONAR'}</Button>
+      <Button onClick={active ? action : null} size={48} background={!active && 'silver'}>{active ? 'RESERVAR AHORA' : 'SELECCIONAR'}</Button>
     </div>
   </div>
 );
