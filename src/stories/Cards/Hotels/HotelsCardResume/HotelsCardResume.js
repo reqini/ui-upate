@@ -47,7 +47,7 @@ HotelsCardResume.propTypes = {
 };
 
 HotelsCardResume.defaultProps = {
-  image: 'https://media.upate.com/eyJibHVyIjpmYWxzZSwic3JjIjoiaHR0cDovL3Bob3Rvcy5ob3RlbGJlZHMuY29tL2dpYXRhL29yaWdpbmFsLzEyLzEyNDc3OC8xMjQ3NzhhX2hiX2FfMDcyLmpwZyIsImhlaWdodCI6ZmFsc2UsIndpZHRoIjpmYWxzZX0%3D.jpg',
+  image: 'https://media-cdn.tripadvisor.com/media/photo-s/15/a1/d2/af/hotel-r-de-paris.jpg',
   rating: 4,
   direction: 'Av. Álvaro Otacílio, 4065',
   nights: 1,

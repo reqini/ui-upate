@@ -1,0 +1,57 @@
+@import '../global.scss';
+
+.content-room-card {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 200px;
+  display: flex;
+
+  &.active {
+    .col {
+      border: 2px solid $bg-secondary;
+    }
+  }
+
+  .col {
+    background: white;
+    margin: 2px;
+    width: 100%;
+
+    .cancel-free{
+      background: $bg-primary;
+      color: white!important;
+    }
+
+    ul{
+      margin-left: 20px;
+
+      li {
+        margin: 3px 0;
+      }
+    }
+
+    &.maxCol{
+      max-width: 250px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .content-room-card {
+    flex-direction: column;
+
+    &.active {
+      border: 2px solid $bg-secondary;
+      .col {
+        border: none;
+      }
+    }
+
+    .col{
+      box-sizing: border-box;
+      margin: 0;
+      &.maxCol{
+        max-width: 100%;
+      }
+    }
+  }
+}
